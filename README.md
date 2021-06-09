@@ -2,8 +2,6 @@
 
 A daemon package for use with Go (golang) services
 
-[![GoDoc](https://godoc.org/github.com/takama/daemon?status.svg)](https://godoc.org/github.com/takama/daemon)
-
 ## Examples
 
 ### Simplest example (just install self as daemon)
@@ -15,7 +13,7 @@ import (
     "fmt"
     "log"
 
-    "github.com/takama/daemon"
+    "github.com/AswinT22/daemon"
 )
 
 func main() {
@@ -45,7 +43,7 @@ import (
     "os/signal"
     "syscall"
 
-    "github.com/takama/daemon"
+    "github.com/AswinT22/daemon"
 )
 
 const (
@@ -212,39 +210,3 @@ WantedBy=multi-user.target
 ### Cron example
 
 See `examples/cron/cron_job.go`
-
-## Contributors (unsorted)
-
-- [Sheile](https://github.com/Sheile)
-- [Nguyen Trung Loi](https://github.com/loint)
-- [Donny Prasetyobudi](https://github.com/donnpebe)
-- [Mark Berner](https://github.com/mark2b)
-- [Fatih Kaya](https://github.com/fatihky)
-- [Jannick Fahlbusch](https://github.com/jannickfahlbusch)
-- [TobyZXJ](https://github.com/tobyzxj)
-- [Pichu Chen](https://github.com/PichuChen)
-- [Eric Halpern](https://github.com/ehalpern)
-- [Yota](https://github.com/nus)
-- [Erkan Durmus](https://github.com/derkan)
-- [maxxant](https://github.com/maxxant)
-- [1for](https://github.com/1for)
-- [okamura](https://github.com/sidepelican)
-- [0X8C - Demired](https://github.com/Demired)
-- [Maximus](https://github.com/maximus12793)
-- [AlgorathDev](https://github.com/AlgorathDev)
-- [Alexis Camilleri](https://github.com/krysennn)
-- [neverland4u](https://github.com/neverland4u)
-- [Rustam](https://github.com/rusq)
-- [King'ori Maina](https://github.com/itskingori)
-
-All the contributors are welcome. If you would like to be the contributor please accept some rules.
-
-- The pull requests will be accepted only in `develop` branch
-- All modifications or additions should be tested
-- Sorry, We will not accept code with any dependency, only standard library
-
-Thank you for your understanding!
-
-## License
-
-[MIT Public License](https://github.com/takama/daemon/blob/master/LICENSE)
